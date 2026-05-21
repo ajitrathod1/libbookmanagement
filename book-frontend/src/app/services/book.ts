@@ -10,7 +10,8 @@ import { Observable } from 'rxjs';
 
 export class BookService {
 
-  apiUrl = 'http://localhost:5095/api/Books';
+  // Use the backend HTTPS endpoint (matches Properties/launchSettings.json) to avoid HTTP->HTTPS redirect
+  apiUrl = 'https://localhost:7029/api/Books';
 
   constructor(private http: HttpClient) { }
 
