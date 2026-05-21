@@ -1,0 +1,12 @@
+.vs/
+node_modules/
+.env
+.DS_Store
+bin/
+obj/
+*.user
+*.suo
+*.log
+package-lock.json
+.idea/
+*.vsidx
